@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+.hero2{  
+    height: 75vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: center;
+    background-image: url(../images/hero1.jpg);
+    
+}
+.slogan2 h1{
+padding-top: 350px;
+color: azure;
+}
+.search{
+    width: 100%;    
+    height: 100vh;
+    padding-left: 370px;
+    align-items: center;
+    justify-content: center;
+}
+form{
+     background: azure;
+     width: 600px;
+     height: 55px;
+     display: flex;
+   
+}
+form input{
+    flex: 1;
+    border: none;
+    outline: none;
+}
+
+form button{
+    background: rgb(255, 166, 0);
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    color: azure;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.navbar{
+    transition: all;
+    
+}
+.navbar img{
+    cursor: pointer;
+}
+nav{
+    
+    right: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display:flex;
+    align-items: center;
+   justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    font-size: 20px;
+}
+.logo{
+    margin-top: -50px;
+    color:azure;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.logo2{
+    margin-right: 0;
+    cursor: pointer;
+}
+span{
+    color:rgb(255, 166, 0);
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color:azure;
+    text-decoration: none;
+    text-align: center;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: rgb(255, 166, 0);
+    transition: .4s;
+}
+.navbar-scrolled {
+    transition: all 0.5s;
+    background-color:black;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.10);
+}
+
+
+.movie-movies{
+    position: absolute;
+    width:100%;
+    height: 65vh;
+    background-color:black;
+    padding: 0px 20px;
+    
+}
+.movie-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.movie-inside h3{
+    font-size: 15px;
+    font-weight:500;
+    margin-top: 14px;
+    color: azure;
+}
+.movie-inside image {
+    height: 250px;
+    border-radius: 10px;
+}
+
+
+.movie-movies2{
+    position: absolute;
+    width:100%;
+    height: 65vh;
+    background-color:black;
+    padding: 0px 20px;
+    margin-top: 390px;
+    
+}
+.movie-container2{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.movie-inside2 h3{
+    font-size: 15px;
+    font-weight:500;
+    margin-top: 14px;
+    color: azure;
+}
+.movie-inside2 image {
+    height: 250px;
+    border-radius: 10px;
+}
+
+.movie-movies3{
+    position: absolute;
+    width:100%;
+    height: 65vh;
+    background-color:black;
+    padding: 0px 20px;
+    margin-top: 785px;
+    
+}
+.movie-container3{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.movie-inside3 h3{
+    font-size: 15px;
+    font-weight:500;
+    margin-top: 14px;
+    color: azure;
+}
+.movie-inside3 image {
+    height: 250px;
+    border-radius: 10px;
+}
+
+
+
+
+
+.image {
+	position: relative;
+	height: 350px;
+}
+
+.image__img {
+	display: block;
+	height: 350px;
+}
+
+.image__overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	color: #ffffff;
+	font-family: 'Quicksand', sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	transition: opacity 0.25s;
+}
+
+.image__overlay--blur {
+	backdrop-filter: blur(5px);
+}
+
+.image__overlay--primary {
+	background: #009578;
+}
+
+.image__overlay>* {
+	transform: translateY(20px);
+	transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+	opacity: 1;
+    cursor: pointer;
+}
+
+.image__overlay:hover>* {
+	transform: translateY(0);
+}
+
+.image__title {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.image__description {
+	font-size: 1.25em;
+	margin-top: 0.25em;
+}
+.footer{
+    position: absolute;
+    margin-top: 1200px;
+    height: 15vh;
+    color: white;
+    background:#141414;
+    width: 100%;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyright{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-left: 600px;
+}
