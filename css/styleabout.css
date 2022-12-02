@@ -61,7 +61,7 @@ nav ul li a:hover{
     background-size: cover;
     background-size: center;
     background-attachment: fixed;
-    background-image: url(images/hero2.jpg);
+    background-image: url(../images/hero2.jpg);
 }
 .about img{
     height:auto;
