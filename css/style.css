@@ -330,7 +330,7 @@ span{
 }
 
 .tranding-slider-control .slider-arrow {
-  background: var(--white);
+  background: white;
   width: 3.5rem;
   height: 3.5rem;
   border-radius: 50%;
